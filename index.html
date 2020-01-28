@@ -10,19 +10,21 @@
 <body>
   <div class="container">
     <h1>To Do List</h1>
+    <br>
+    <br>
     <form id="userInput">
-        <input type="text" id="thingsToDo" value="toDo">
-        <button type="submit" class="btn btn-default">Add</button>
-    </form> 
+      <div class="form-group">
+        <input type="text" id="thingsToDo" placeholder="Things to do:">
+      </div>  
+      <button type="submit" class="btn btn-info">Add</button>
+    </form>
+    <br>
     <div id="output">
-      <ul id="checkbox">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="myCheck">
-            
-          </label>
-        </div>
-      </ul>
+      <h5>To Do List</h5>
+      <hr>
+      <div class="container" id="done">
+      
+      </div>
     </div>  
   </div>  
 </body>
